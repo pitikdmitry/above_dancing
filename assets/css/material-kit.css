@@ -11607,6 +11607,10 @@ textarea {
 .info-horizontal .description {
   overflow: hidden; }
 
+.icon.icon-soft-pink {
+  color: #f4b5a3;
+}
+
 .icon.icon-primary {
   color: #9c27b0; }
 
