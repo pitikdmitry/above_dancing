@@ -7808,6 +7808,14 @@ button:focus {
       .btn.btn-link:hover, .btn.btn-link:focus, .btn.btn-link:active, .btn.btn-default.btn-link:hover, .btn.btn-default.btn-link:focus, .btn.btn-default.btn-link:active {
         background-color: transparent;
         color: #999999; }
+  .btn.btn-soft-pink, .btn.btn-soft-pink:focus, .btn.btn-soft-pink:hover {
+    background-color: #fff;
+    color: #f4b5a3; }
+  .btn.btn-soft-pink.btn-link {
+    color: #f4b5a3;
+    background: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
   .btn.btn-white, .btn.btn-white:focus, .btn.btn-white:hover {
     background-color: #fff;
     color: #999999; }
@@ -14069,7 +14077,7 @@ thead.thead-inverse th,
       font-weight: bolder;
       display: block; }
       .card-collapse .card-header a:hover, .card-collapse .card-header a:active, .card-collapse .card-header a[aria-expanded="true"] {
-        color: #9c27b0; }
+        color: #f4b5a3; }
       .card-collapse .card-header a i {
         float: right;
         top: 4px;
@@ -16715,3 +16723,12 @@ footer {
     display: none !important; } }
 
 /*# sourceMappingURL=material-kit.css.map */
+
+#bg-video {
+  object-fit: cover;
+  width: 100vw;
+  /*height: 100vh;*/
+  /*position: fixed;*/
+  top: 0;
+  left: 0;
+}
