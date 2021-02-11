@@ -434,12 +434,12 @@ sup {
   top: -.5em; }
 
 a {
-  color: #9c27b0;
+  color: #f4b5a3;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
-    color: #0a6ebd;
+    color: #f4b5a3;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
@@ -8579,10 +8579,10 @@ legend {
     outline: 0; }
 
 a {
-  color: #9c27b0;
+  color: #f4b5a3;
 }
   a:hover, a:focus {
-    color: #89229b;
+    color: #f4b5a3;
     text-decoration: none; }
   a.text-info:hover, a.text-info:focus {
     color: #00a5bb; }
@@ -11603,7 +11603,8 @@ textarea {
     color: #3C4858;
     margin: 1.75rem 0 0.875rem; }
   .info p {
-    color: #999999; }
+    /*color: #999999;*/
+  }
 
 .info-horizontal .icon {
   float: left;
@@ -11724,7 +11725,8 @@ h2.title {
 .description,
 .card-description,
 .footer-big p {
-  color: #999; }
+
+ }
 
 .text-warning {
   color: #ff9800 !important; }
@@ -12121,7 +12123,7 @@ h2.title {
   .dropdown-menu a:active {
     -webkit-box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(156, 39, 176, 0.4);
             box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(156, 39, 176, 0.4);
-    background-color: #9c27b0;
+    background-color: #f4b5a3;
     color: #FFFFFF; }
 
 .dropdown-toggle.bmd-btn-icon::after, .dropdown-toggle.bmd-btn-fab::after {
@@ -14170,7 +14172,7 @@ thead.thead-inverse th,
   .front-background .card-category,
   .front-background .card-description,
   .front-background small {
-    color: rgba(255, 255, 255, 0.7) !important; }
+    color: rgba(255, 255, 255, 1) !important; }
   .card-background .card-title,
   .back-background .card-title,
   .front-background .card-title {
@@ -14576,7 +14578,7 @@ thead.thead-inverse th,
       background-color: transparent; }
       .bootstrap-datetimepicker-widget a[data-action]:hover span {
         background-color: #eee;
-        color: #9c27b0; }
+        color: #f4b5a3; }
   .bootstrap-datetimepicker-widget a[data-action]:active {
     -webkit-box-shadow: none;
             box-shadow: none; }
@@ -16744,4 +16746,18 @@ footer {
 
 .price-description {
   color: #999;
+}
+
+.small-btn-text {
+  font-size: 8px;
+  margin: 0 !important;
+}
+
+#header-background {
+  background-image: url("../../assets/images/pysa_fly_small.jpg");
+}
+@media (min-width: 600px) {
+  #header-background {
+    background-image: url("../../assets/images/pysa_fly.jpg");
+  }
 }
