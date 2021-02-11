@@ -14010,8 +14010,8 @@ thead.thead-inverse th,
     padding: 10px 0 0px; }
     .card-pricing .icon i {
       font-size: 55px;
-      border: 1px solid #E5E5E5;
-      border-radius: 50%;
+      border: 0px ;
+      /*border-radius: 50%;*/
       width: 130px;
       line-height: 130px;
       height: 130px; }
@@ -16731,4 +16731,17 @@ footer {
   /*position: fixed;*/
   top: 0;
   left: 0;
+}
+
+.price-header {
+  font-size: 16px;
+}
+
+.price-value {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.price-description {
+  color: #999;
 }
