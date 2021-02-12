@@ -16,5 +16,5 @@ ENTRYPOINT ["nginx", "-g", "daemon off;"]
 #   https://hub.docker.com/u/pitikdmitry
 
 #   ssh ...
-#   docker pull docker push pitikdmitry/nginx-docker
+#   docker pull pitikdmitry/nginx-docker
 #   docker run -d -p 80:80 pitikdmitry/nginx-docker
