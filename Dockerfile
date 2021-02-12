@@ -9,12 +9,13 @@ COPY nginx.conf /etc/nginx/nginx.conf
 
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
 
+#   start locally
 #   docker build -t nginx-docker .
 #   docker run -d -p 80:80 pitikdmitry/nginx-docker
-#   docker tag nginx-docker pitikdmitry/nginx-docker
-#   docker push pitikdmitry/nginx-docker
-#   https://hub.docker.com/u/pitikdmitry
 
+#   build image and push to registry
+#   docker build -t nginx-docker . && docker tag nginx-docker pitikdmitry/nginx-docker && docker push pitikdmitry/nginx-docker
+
+#   start container on virtual machine
 #   ssh ...
-#   docker pull pitikdmitry/nginx-docker
-#   docker run -d -p 80:80 pitikdmitry/nginx-docker
+#   docker rm -vf $(docker ps -aq) && docker pull pitikdmitry/nginx-docker && docker run -d -p 80:80 pitikdmitry/nginx-docker
