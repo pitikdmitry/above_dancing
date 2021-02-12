@@ -10,7 +10,11 @@ COPY nginx.conf /etc/nginx/nginx.conf
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
 
 #   docker build -t nginx-docker .
-#   docker run -d -p 80:80 -v .:/app nginx-docker
+#   docker run -d -p 80:80 pitikdmitry/nginx-docker
 #   docker tag nginx-docker pitikdmitry/nginx-docker
 #   docker push pitikdmitry/nginx-docker
 #   https://hub.docker.com/u/pitikdmitry
+
+#   ssh ...
+#   docker pull docker push pitikdmitry/nginx-docker
+#   docker run -d -p 80:80 pitikdmitry/nginx-docker
