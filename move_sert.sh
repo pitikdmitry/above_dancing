@@ -1,0 +1,1 @@
+cp /etc/letsencrypt/live/abovedancing.ru/fullchain.pem . && cp /etc/letsencrypt/live/abovedancing.ru/privkey.pem . && cp /etc/letsencrypt/live/abovedancing.ru/chain.pem .

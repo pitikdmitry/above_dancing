@@ -9,9 +9,9 @@ COPY nginx.conf /etc/nginx/nginx.conf
 COPY acme.conf /etc/nginx/acme.conf
 
 #   need to run only on virtual machine, where sertificates exists
-COPY /etc/letsencrypt/live/abovedancing.ru/fullchain.pem /etc/letsencrypt/live/abovedancing.ru/fullchain.pem
-COPY /etc/letsencrypt/live/abovedancing.ru/privkey.pem /etc/letsencrypt/live/abovedancing.ru/privkey.pem
-COPY /etc/letsencrypt/live/abovedancing.ru/fullchain.pem /etc/letsencrypt/live/abovedancing.ru/chain.pem
+COPY fullchain.pem /etc/letsencrypt/live/abovedancing.ru/fullchain.pem
+COPY privkey.pem /etc/letsencrypt/live/abovedancing.ru/privkey.pem
+COPY chain.pem /etc/letsencrypt/live/abovedancing.ru/chain.pem
 
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
 
