@@ -1,0 +1,11 @@
+version: '3'
+services:
+  nginx:
+    image: pitikdmitry/nginx-docker
+    build: .
+    ports:
+      - 80:80
+
+    volumes:
+      - /var/www/html:/var/www/html
+      - ./index.html:/app/index.html

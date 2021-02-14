@@ -19,3 +19,4 @@ ENTRYPOINT ["nginx", "-g", "daemon off;"]
 #   start container on virtual machine
 #   ssh ...
 #   docker rm -vf $(docker ps -aq) && docker pull pitikdmitry/nginx-docker && docker run -d -p 80:80 pitikdmitry/nginx-docker
+
