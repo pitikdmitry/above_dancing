@@ -5,7 +5,8 @@ services:
     build: .
     ports:
       - 80:80
+      - 443:443
 
     volumes:
-      - /var/www/html:/var/www/html
+#      - /var/www/html:/var/www/html
       - ./index.html:/app/index.html
