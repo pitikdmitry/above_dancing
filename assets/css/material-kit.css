@@ -351,6 +351,7 @@ h5 {
     -ms-overflow-style: -ms-autohiding-scrollbar; }
 
 .btn {
+    width: 100%;
     display: inline-block;
     font-weight: 400;
     text-align: center;
