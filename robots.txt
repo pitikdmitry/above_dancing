@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /.well-known
+Disallow: /assets/css
+Disallow: /assets/js
+Sitemap: https://abovedancing.ru/sitemap
+
+User-agent: Yandex
+Disallow: /.well-known
+Disallow: /assets/css
+Disallow: /assets/js
+Host: abovedancing.ru
+Sitemap: https://abovedancing.ru/sitemap
