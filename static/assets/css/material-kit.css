@@ -560,6 +560,19 @@ h5 {
 .collapse.show {
     display: block; }
 
+tr.collapse.show {
+    display: table-row; }
+
+tbody.collapse.show {
+    display: table-row-group; }
+
+.collapsing {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: height 0.35s ease;
+    transition: height 0.35s ease; }
+
 .nav-link {
     display: block;
     padding: 0.5rem 1rem; }
