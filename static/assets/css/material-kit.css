@@ -1783,7 +1783,7 @@ footer .copyright {
 }
 
 #header-background {
-    background-image: url("../../assets/images/shkola_tantsev_small.jpg");
+    background-image: url("../../assets/images/shkola_tantsev_mobile.jpg");
 }
 @media (min-width: 600px) {
     #header-background {
