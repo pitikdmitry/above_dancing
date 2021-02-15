@@ -1782,13 +1782,27 @@ footer .copyright {
     margin: 0 !important;
 }
 
+
 #header-background {
     background-image: url("../../assets/images/shkola_tantsev_mobile.jpg");
 }
+
 @media (min-width: 600px) {
     #header-background {
-        background-image: url("../../assets/images/shkola_tantsev.jpg");
+        background-image: url("../images/shkola_tantsev.jpg");
     }
+}
+
+#lady-card {
+    background-image: url("../../assets/images/lady_dance.jpg");
+}
+
+#strip-card {
+    background-image: url("../../assets/images/strip.jpg");
+}
+
+#twerk-card {
+    background-image: url("../../assets/images/twerk.jpg");
 }
 
 #bodyClick {
