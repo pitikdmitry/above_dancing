@@ -1839,3 +1839,7 @@ footer .copyright {
     display: none !important;
   }
 }
+
+.attention-text {
+    font-size: 26px;
+}
