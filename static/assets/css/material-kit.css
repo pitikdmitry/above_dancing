@@ -800,6 +800,12 @@ button:focus {
 }
 /*.btn:focus, .btn:active:focus {*/
 /*    outline: 0; }*/
+.btn.btn-vog{
+    color: #fff;
+    background-color: #18E3FF;
+    border-color: #18E3FF;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12);
+    box-shadow: 0 2px 2px 0 rgba(156, 39, 176, 0.14), 0 3px 1px -2px rgba(156, 39, 176, 0.2), 0 1px 5px 0 rgba(156, 39, 176, 0.12); }
 .btn.btn-red{
     color: #fff;
     background-color: #AD0016;
