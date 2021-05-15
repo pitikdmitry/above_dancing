@@ -18,3 +18,9 @@ old scripts
 #   start container on virtual machine
 #   ssh ...
 #   docker rm -vf $(docker ps -aq) && docker pull pitikdmitry/nginx-docker && docker run -d -p 80:80 pitikdmitry/nginx-docker
+
+# update certificates
+1. uncomment /var/www/html in docker-compose volumes
+2. in nginx.conf in listen 80 section remove redirect 301 to 200
+3. create new certificates: certbot certonly -d abovedancing.ru
+4. certificates will appear /etc/letsencrypt/live/abovedancing.ru_newversion , move them to root folder
