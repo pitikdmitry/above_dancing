@@ -16,6 +16,7 @@ var menu = document.querySelector('.navbar-collapse');
 
 var toggleMenu = function() {
     htmlElement.classList.toggle("nav-open");
+    myNav.classList.toggle("dark-background");
 }
 
 btnMenu.addEventListener('click', function(e) {
