@@ -1779,6 +1779,22 @@ footer .copyright {
     background-image: url("../../assets/images/twerk.jpg");
 }
 
+#bachata-card {
+    background-image: url("../images/bachata.jpg");
+}
+
+#body-ballet-card {
+    background-image: url("../images/body_ballet.jpg");
+}
+
+#vogue-card {
+    background-image: url("../images/vogue.jpg");
+}
+
+#stretching-card {
+    background-image: url("../images/stretching.jpg");
+}
+
 @media all and (max-width: 991px) {
   [class*="navbar-expand-"] > .container,
   [class*="navbar-expand-"] > .container-fluid {
