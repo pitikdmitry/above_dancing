@@ -2236,3 +2236,16 @@ footer .copyright {
 .dark-background {
     opacity: 0.9 !important;
 }
+
+@media (min-width: 992px) {
+    #schedule-mobile {
+    display: none;
+}
+
+
+}
+@media (max-width: 992px) {
+    #schedule-desktop {
+        display: none;
+    }
+}
