@@ -1771,6 +1771,10 @@ footer .copyright {
     background-image: url("../../assets/images/lady_dance.jpg");
 }
 
+#jazz-funk-card {
+ background-image: url("../../assets/images/jazz-funk.jpg");
+}
+
 #strip-card {
     background-image: url("../../assets/images/strip.jpg");
 }
@@ -1789,6 +1793,14 @@ footer .copyright {
 
 #vogue-card {
     background-image: url("../images/vogue.jpg");
+}
+
+#contemporary-card {
+    background-image: url("../images/contemporary.jpg");
+}
+
+#highheels-card {
+    background-image: url("../images/highheels.jpg");
 }
 
 #stretching-card {
