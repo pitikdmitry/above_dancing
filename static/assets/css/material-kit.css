@@ -2261,3 +2261,12 @@ footer .copyright {
         display: none;
     }
 }
+
+h2.card-title {
+    font-size: 25px;
+    margin: 0;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    cursor: pointer;
+}
